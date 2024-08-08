@@ -3,7 +3,6 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Spinner from "./componen/Spinner";
 import Navbar from "./componen/Navbar";
 import Service from "./componen/Service";
-import About from "./componen/About";
 import FoodMenu from "./componen/FoodMenu";
 import Reservation from "./componen/Reservation";
 import Modal from "./componen/Modal";
@@ -19,6 +18,7 @@ import "./assets/css/style.css";
 
 import "./assets/lib/animate/animate.min.css";
 import Home from "./pages/Home";
+import About from "./pages/About";
 
 function App() {
   return (
@@ -28,6 +28,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
       </Routes>
+      <Footer />
     </Router>
   );
 }

@@ -1,11 +1,12 @@
+import React from "react";
 import Hero from "../componen/Hero";
 
-const About = () => {
+function About() {
   return (
     <div>
-      <Hero />;
+      <Hero />
     </div>
   );
-};
+}
 
 export default About;
